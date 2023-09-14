@@ -51,6 +51,11 @@ main h2{
 main h2 span{
     color: darkcyan;
 }
+input, #select-race {
+    padding: 10px;
+    font-family: "Roboto";
+    font-size: 20px;
+}
 
 .container{
     display: grid;
