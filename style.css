@@ -171,3 +171,27 @@ display: flex;
 .thanks h2 span{
     color: darkcyan    
 }
+
+/* MODAL */
+button {
+    background-color: rgb(122, 160, 204);
+    height: 5.5rem;
+    font-size: 2.4rem;
+    border: var(--deafult-border);
+    border-radius: var(--default-border-radius);
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 4.8rem; 
+    margin-left: 15px;
+    padding-left: 140px;
+    padding-right: 140px;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+button:hover {
+    opacity: 1;
+}
