@@ -277,3 +277,15 @@ button:hover {
 #close-modal:hover{
     opacity: 1;
 }
+
+/* RESPONSITIVIDADE */
+
+@media(max-width: 768px){
+    body .container {
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.2fr 0.8fr;
+        grid-template-areas:
+        "hero"
+        "form";
+    }
+}
